@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import cors from "cors";
 //app
 const app = express();
-const genAI = new GoogleGenerativeAI(""); // Make sure this is securely stored and handled.
+const genAI = new GoogleGenerativeAI("AIzaSyDGUFRJGLtCUs0A8xNlvfsm3uKuvdu02rQ"); // Make sure this is securely stored and handled.
 
 app.use(cors());
 app.use(express.json());
