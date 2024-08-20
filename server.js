@@ -6,6 +6,7 @@ const app = express();
 const genAI = new GoogleGenerativeAI("AIzaSyDGUFRJGLtCUs0A8xNlvfsm3uKuvdu02rQ"); // Make sure this is securely stored and handled.
 //cross -origin
 app.use(cors());
+//he cors middleware allows your server to accept requests from different origins, ensuring smooth communication between your frontend and backend.
 app.use(express.json());
 
 app.post("/generate-tasks", async (req, res) => {
