@@ -4,7 +4,7 @@ import cors from "cors";
 //app
 const app = express();
 const genAI = new GoogleGenerativeAI("AIzaSyDGUFRJGLtCUs0A8xNlvfsm3uKuvdu02rQ"); // Make sure this is securely stored and handled.
-
+//cross -origin
 app.use(cors());
 app.use(express.json());
 
